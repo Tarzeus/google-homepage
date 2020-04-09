@@ -1,8 +1,62 @@
 body{
-    background-color:yellow;
+    background-color: brown;
 }
-h1 {
-    background-color: aqua;
-    font-size: 80px;
-    color: green;
+.topNav {
+    background-color: blue;
+    width:100%;
+    display: flex;
+}
+.topLeft{
+    background-color:#Add2E6 ;
+    width: 40%;
+    display: flex;
+}
+.topRight{
+    background-color:lightcyan;
+    width: 40%;
+    display: flex;
+}
+.bottomNav {
+    background-color: lightgrey;
+    display: flex;
+    align-items: center;
+}
+.bottomLeft {
+    background-color:grey;
+    width:40%;
+    display: flex;
+}
+.bottomRight {
+    background-color:grey;
+    width:40%;
+    display: flex;
+}
+.middleSection{
+    background-color:yellow;
+    height:100%;
+    padding: 10px;
+}
+
+.gImg {
+    background-color: gainsboro;
+    padding: 10px;
+}
+.searchBarDiv{
+    background-color: greenyellow;
+    padding:10px;
+}
+.searchText{
+    width: 100%;
+}
+form{
+    background-color:cyan;
+}
+.buttons{
+    padding: 10px;
+}
+.searchButton{
+    border-color:black;
+}
+.luckyButton{
+    border-color:orange;
 }
