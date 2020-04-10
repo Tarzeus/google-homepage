@@ -9,6 +9,7 @@ ul{
     padding: 0;
     overflow: hidden;
     background-color:#778899;
+    font-size: 18px;
 }
 li{
     float: left;
@@ -22,7 +23,6 @@ a{
     text-decoration: none;
 }
 li:hover{
-    background-color: lightseagreen;
     color:white;
     font-weight: bold;
 }
@@ -36,6 +36,7 @@ li:hover{
     position:absolute;
     bottom: 0;
     width: 100%;
+    margin-top: 0;
 }
 .bottomRight{
     float: right;
@@ -84,12 +85,20 @@ form{;
     width: 160px;
     border-radius: 20px;
 }
+.searchButton:hover{
+    background-color:orange;
+    font-weight: bold;
+}
 .luckyButton{
-    border-color:orange;
+    border-color:black;
     height:30px;
     width: 160px;
     border-radius: 20px;
 }
+.luckyButton:hover{
+    background-color:pink;
+    font-weight: bold;
+    }
 .signin{
     margin:7px;
     padding: 0;
