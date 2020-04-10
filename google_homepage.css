@@ -1,35 +1,37 @@
 body{
     background-color: #8b0000;
+    padding: 0;
+    margin: 0;
+
 }
-.topNav {
-    background-color: blue;
-    width:100%;
-    display: flex;
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightskyblue;
 }
-.topLeft{
-    background-color:#Add2E6 ;
-    width: 40%;
-    display: flex;
+li{
+    float: left;
+}
+a{
+    display: block;
+    padding:10px;
+    color: black;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+a:hover{
+    background-color: lightseagreen;
+    color:white;
+    font-weight: bold;
 }
 .topRight{
-    background-color:lightcyan;
-    width: 40%;
-    display: flex;
+    float: right;
 }
-.bottomNav {
-    background-color: lightgrey;
-    display: flex;
-    align-items: center;
-}
-.bottomLeft {
-    background-color:grey;
-    width:40%;
-    display: flex;
-}
-.bottomRight {
-    background-color:grey;
-    width:40%;
-    display: flex;
+.bottomRight{
+    float: right;
 }
 .middleSection{
     background-color:yellow;
